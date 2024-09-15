@@ -1,0 +1,12 @@
+import pandas as pd
+
+# Charger le fichier CSV avec un séparateur de virgule
+csv_file = 'archive (1)/songs_with_attributes_and_lyrics.csv/songs_with_attributes_and_lyrics.csv'
+df = pd.read_csv(csv_file, sep=',')
+"""
+# Sauvegarder en fichier Excel
+excel_file = 'votre_fichier.xlsx'
+df.to_excel(excel_file, index=False)
+
+print(f"Fichier Excel créé avec succès : {excel_file}")
+"""
